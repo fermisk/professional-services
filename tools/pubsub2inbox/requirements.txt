@@ -16,3 +16,4 @@ grpcio~=1.33.1
 functions-framework~=2.0.0
 google-cloud-iam~=2.0.0
 google-cloud-bigquery~=1.28.0
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
