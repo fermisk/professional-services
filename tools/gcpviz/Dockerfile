@@ -6,7 +6,7 @@ COPY cmd/*.go ./cmd/
 RUN cd cmd
 RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o $GOPATH/bin ./...
 
-FROM google/cloud-sdk:slim
+FROM google/cloud-sdk:458.0.1-slim
 
 RUN apt-get update
 RUN apt-get install -y graphviz
