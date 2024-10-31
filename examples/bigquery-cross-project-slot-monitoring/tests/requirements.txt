@@ -3,3 +3,4 @@ mock
 pytz
 webapp2
 webtest
+waitress>=3.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
