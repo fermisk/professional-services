@@ -31,7 +31,7 @@ ipaddress==1.0.22         # via faker
 mock==2.0.0
 oauth2client==4.1.3
 pbr==5.1.3                # via mock
-protobuf==3.6.1           # via google-api-core, googleapis-common-protos
+protobuf==4.25.8           # via google-api-core, googleapis-common-protos
 pyasn1-modules==0.2.2     # via google-auth, oauth2client
 pyasn1==0.4.4             # via oauth2client, pyasn1-modules, rsa
 python-dateutil==2.7.5    # via faker
@@ -43,5 +43,5 @@ rsa==4.0                  # via google-auth, oauth2client
 six==1.12.0               # via faker, google-api-core, google-api-python-client, google-auth, google-resumable-media, grpcio, mock, oauth2client, protobuf, python-dateutil, retrying
 text-unidecode==1.2       # via faker
 uritemplate==3.0.0        # via google-api-python-client
-urllib3==1.24.1           # via requests
+urllib3==2.5.0           # via requests
 yaspin==0.14.0
