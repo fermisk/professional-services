@@ -12,3 +12,5 @@ dask[complete]==1.0.0
 lime==0.1.1.32
 dill==0.2.8.2
 bs4==0.0.1
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
