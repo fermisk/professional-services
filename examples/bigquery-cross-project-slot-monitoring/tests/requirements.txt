@@ -3,3 +3,4 @@ mock
 pytz
 webapp2
 webtest
+protobuf>=6.33.5 # not directly required, pinned by Snyk to avoid a vulnerability
